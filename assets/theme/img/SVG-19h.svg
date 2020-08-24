@@ -1,0 +1,34 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M57.6908 18.5V23.5H48.6908V18.5H57.6908Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M55.1908 30V24" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M51.1908 24V30" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M95.6908 18.5V23.5H86.6908V18.5H95.6908Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M93.1908 30V24" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M89.1908 24V30" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M44.6908 68.5V73.5H35.6908V68.5H44.6908Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M42.1908 80V74" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M38.1908 74V80" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M29.6908 68.5V73.5H20.6908V68.5H29.6908Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M27.1908 80V74" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M23.1908 74V80" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M124.691 68.5V73.5H115.691V68.5H124.691Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M122.191 80V74" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M118.191 74V80" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M109.691 68.5V73.5H100.691V68.5H109.691Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M107.191 80V74" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M103.191 74V80" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M68.1908 67H76.1908V30H68.1908V67Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<line x1="46.1908" y1="31" x2="98.1908" y2="31" stroke="white" stroke-width="6"/>
+<line x1="17.1908" y1="81" x2="127.191" y2="81" stroke="white" stroke-width="6"/>
+<path d="M59.1908 60H68.1908V67H76.1908V60H85.1908V80H59.1908V60Z" fill="white" stroke="white" stroke-width="3"/>
+<path d="M85.1908 135V81H59.1908V135" stroke="white" stroke-width="3"/>
+<line x1="51.7038" y1="23.4095" x2="9.41766" y2="38.8004" stroke="white" stroke-width="3"/>
+<line x1="95.7038" y1="6.40954" x2="58.1161" y2="20.0903" stroke="white" stroke-width="3"/>
+<line x1="132.704" y1="6.40954" x2="96.0558" y2="19.7483" stroke="white" stroke-width="3"/>
+<line x1="36.7038" y1="73.4095" x2="8.51305" y2="83.6701" stroke="white" stroke-width="3"/>
+<line x1="87.7038" y1="24.4095" x2="8.76965" y2="53.1392" stroke="white" stroke-width="3"/>
+<line x1="132.704" y1="38.4095" x2="45.3124" y2="70.2174" stroke="white" stroke-width="3"/>
+<line x1="100.704" y1="73.4095" x2="8.61395" y2="106.928" stroke="white" stroke-width="3"/>
+<line x1="132.704" y1="61.4095" x2="109.212" y2="69.96" stroke="white" stroke-width="3"/>
+<rect x="60.5" y="82.5" width="23" height="51" fill="white" stroke="white" stroke-width="3"/>
+</svg>

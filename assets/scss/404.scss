@@ -1,0 +1,42 @@
+@import "libs/variables";
+
+.main {
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    min-height: 78vh;
+
+    @media (min-width: 768px) {
+        margin-left: -20px;
+    }
+    @media (min-width: 1440px) {
+        margin-left: -69px;
+    }
+  p{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $title_color;
+  }
+
+  .action{
+      margin-top: 40px;
+  }
+
+  .btn{
+      background-color: $color_yellow;
+      color: $color_white;
+      &:hover{
+          background-color: $title_color;
+      }
+  }
+}

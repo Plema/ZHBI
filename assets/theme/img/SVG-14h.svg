@@ -1,0 +1,7 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="18.5" y="81" width="41" height="27" fill="white" stroke="white" stroke-width="3"/>
+<rect x="80.5" y="81" width="41" height="27" fill="white" stroke="white" stroke-width="3"/>
+<path d="M127 31H13M13 81H127" stroke="white" stroke-width="3"/>
+<ellipse rx="4" ry="25" transform="matrix(-1 0 0 1 13 56)" stroke="white" stroke-width="3"/>
+<path d="M127 81C128.061 81 129.078 78.3661 129.828 73.6777C130.579 68.9893 131 62.6304 131 56C131 49.3696 130.579 43.0107 129.828 38.3223C129.078 33.6339 128.061 31 127 31" stroke="white" stroke-width="3"/>
+</svg>

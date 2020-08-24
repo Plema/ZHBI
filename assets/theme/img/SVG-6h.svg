@@ -1,0 +1,18 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M108 38H117.048V50H128" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M36 37H104" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M108 83.0667C97.1513 87.1546 84.8116 89.3225 70.9711 89.3225C56.5323 89.3225 43.1234 86.7447 32 82.3225" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M104 25V72.3262C94.4225 75.3328 82.4124 77 70.2394 77C57.8654 77 46.5352 75.275 36 72.172V25" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M74 77V61H96V74.4579" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M76 61C76 56.5822 80.03 53 85 53C89.97 53 94 56.5822 94 61" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M85 37V53" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M102.075 6.54224H37.9253" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<mask id="path-9-inside-1" fill="white">
+<path d="M37.8572 5L18 25H122L102.211 5.11294"/>
+</mask>
+<path d="M18 25L15.8711 22.8863L10.7939 28H18V25ZM122 25V28H129.217L124.127 22.8839L122 25ZM35.7283 2.88629L15.8711 22.8863L20.1289 27.1137L39.9861 7.11371L35.7283 2.88629ZM18 28H122V22H18V28ZM124.127 22.8839L104.337 2.99686L100.084 7.22902L119.873 27.1161L124.127 22.8839Z" fill="white" mask="url(#path-9-inside-1)"/>
+<path d="M107 111H127" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M13 111H33" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<rect x="31.5" y="23.5" width="77" height="109" stroke="white" stroke-width="3"/>
+<path d="M70.4977 89.9999L70.5065 90.0001L70.5153 89.9999C84.7312 89.7493 94.3938 88.1201 100.514 86.5468C103.574 85.7601 105.749 84.9874 107.163 84.408C107.727 84.1774 108.17 83.9774 108.5 83.8195V132.5H31.5V83.7921C31.8624 83.9541 32.3617 84.1655 33.0053 84.4122C34.5129 84.9901 36.8119 85.7618 39.9971 86.5479C46.3676 88.1201 56.2817 89.7493 70.4977 89.9999Z" fill="white" stroke="white"/>
+</svg>

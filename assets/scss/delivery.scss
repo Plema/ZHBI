@@ -1,0 +1,131 @@
+@import "libs/variables";
+
+h1 {
+    margin-top: 29px;
+
+    @media (min-width: 768px) {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        margin-top: 61px;
+        padding-left: 5px;
+        margin-bottom: 16px;
+    }
+}
+
+.section {
+    padding-top: 12px;
+
+    @media (min-width: 768px) {
+        padding-top: 37px;
+    }
+
+    @media (min-width: 1440px) {
+        padding-right: 81px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-bottom: 0px;
+
+        @media (min-width: 768px) {
+            padding-left: 10px;
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 0.3px;
+            line-height: 20px;
+        }
+
+    }
+
+    .form-input {
+        display: flex;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+
+    .content {
+        max-width: 721px;
+        margin: 95px auto 51%;
+
+        @media (min-width: 768px) {
+            margin: 16% auto 25%;
+        }
+
+        input {
+            font-size: 20px;
+            font-weight: 300;
+            color: $color_black;
+            padding-bottom: 11px;
+            text-transform: uppercase;
+            border: none;
+            border-bottom: 1px solid;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            padding-right: 14px;
+            width: 100%;
+
+            @media (min-width: 768px) {
+                font-size: 28px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                line-height: 40px;
+                text-transform: uppercase;
+                padding-bottom: 3px;
+                padding-left: 10px;
+            }
+
+        }
+    }
+
+    span {
+        display: block;
+        padding: 13px 16px 13px 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+        @media (min-width: 768px) {
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 0.3px;
+            line-height: 20px;
+        }
+    }
+
+    .result {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 95px auto 51%;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            margin: 17% auto 25%;
+            font-size: 24px;
+        }
+    }
+
+    button {
+        width: 34px;
+        height: 30px;
+        border: 0;
+        background-color: inherit;
+        background-image: url(../img/arrow-3.svg);
+        min-width: 34px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        margin-top: -7px;
+        margin-right: -5px;
+
+        @media (min-width: 768px) {
+            margin-top: 2px;
+        }
+    }
+}

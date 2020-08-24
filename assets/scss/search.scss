@@ -1,0 +1,113 @@
+@import "libs/variables";
+
+body {
+    background-color: $color_grey;
+}
+
+.section {
+
+    &-search {
+        height: 79vh;
+        padding: 0 15px;
+        background-color: $color_grey;
+
+        @media (min-width: 768px) {
+            height: 39vh;
+            margin-top: 10%;
+
+
+        }
+
+        form {
+            max-width: 100%;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            justify-content: center;
+        }
+
+        h1 {
+            display: none;
+
+            @media (min-width: 768px) {
+                display: block;
+                text-align: center;
+                font-size: 36px;
+                font-weight: 700;
+                letter-spacing: 1.8px;
+                text-transform: uppercase;
+                margin-top: 36px;
+                margin-right: 76px;
+            }
+
+            @media (min-width: 1440px) {
+                margin-right: 104px;
+            }
+        }
+
+        form {
+            @media (min-width: 768px) {
+                display: flex;
+                width: 992px;
+                max-width: 90%;
+                margin-right: -43px;
+            }
+
+            @media (min-width: 1440px) {
+                margin-right: -23px;
+            }
+        }
+
+        input {
+            font-size: 20px;
+            font-weight: 300;
+            color: $color_black;
+            background-color: inherit;
+            padding-bottom: 11px;
+            text-transform: uppercase;
+            border: none;
+            border-bottom: 1px solid;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            width: 315px;
+            max-width: 100%;
+
+            @media (min-width: 768px) {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 40px;
+                padding-bottom: 3px;
+                padding-left: 10px;
+                padding-right: 10px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin-right: 33px;
+                width: 80%;
+            }
+
+        }
+
+        button {
+            min-width: 40px;
+            border: 0;
+            background-color: inherit;
+            background-image: url(../img/search.svg);
+            background-repeat: no-repeat;
+            background-position: 50%;
+            width: 40px;
+            height: 52px;
+            margin: 21px auto 41px;
+            display: block;
+
+            @media (min-width: 768px) {
+                margin: 0;
+            }
+        }
+    }
+}

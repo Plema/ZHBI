@@ -1,0 +1,186 @@
+.footer {
+    background-color: $color_yellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0 0;
+
+    @media (min-width: 768px) {
+        margin-left: 60px;
+    }
+
+    @media (min-width: 1440px) {
+        margin-left: 75px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 35px 0 0;
+    }
+
+    .logo {
+        width: 120px;
+        margin: 0 auto 3px;
+
+        @media (min-width: 1440px) {
+            width: 212px;
+            min-width: 212px;
+            margin: 0 0 10px 5px;
+        }
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        @media (min-width: 1440px) {
+            margin-right: 100px;
+            align-items: center;
+            margin-bottom: 11px;
+        }
+    }
+
+    a {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 19px;
+        color: $title_color;
+
+        @media (min-width: 768px) {
+            margin: 0 10px 10px;
+        }
+
+        @media (min-width: 1440px) {
+            margin: 0 10px 10px 35px;
+            text-transform: none;
+        }
+    }
+
+    .footer-bottom {
+        background-color: $title_color;
+        color: $color_white;
+        width: 100%;
+        padding: 20px 15% 20px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 22px;
+
+        @media (min-width: 1440px) {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 111px 30px 39px;
+        }
+
+        span {
+            color: $color_white;
+            display: block;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 22px;
+
+            @media (min-width: 1440px) {
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: 0.3px;
+                line-height: 20px;
+                max-width: 505px;
+            }
+        }
+
+        .address {
+            display: none;
+
+            @media (min-width: 1440px) {
+                display: block;
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: 0.3px;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+.action-footer {
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 120px;
+    height: 106px;
+
+    @media (min-width: 768px) {
+        // right: 43px;
+        // bottom: 242px;
+        bottom: 22%;
+    }
+
+    .message {
+        margin-left: 60px;
+        position: absolute;
+        top: 13px;
+        width: 60px;
+        min-height: 60px;
+        background-color: $color_yellow;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        display: block;
+
+        &::before {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            content: '';
+            background-image: url(../img/message.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            top: 11px;
+            left: 10px;
+        }
+
+    }
+
+    .go-top {
+        width: 60px;
+        min-height: 60px;
+        background-color: $title_color;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        display: none;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            content: '';
+            background-image: url(../img/arrow.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            top: 11px;
+            left: 10px;
+        }
+
+    }
+}

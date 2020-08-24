@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.png">
+  <link rel="stylesheet" href="css/style.min.css" data-inprogress="">
+  <link rel="stylesheet" href="css/ordering.min.css" data-inprogress="">
+</head>
+
+<body>
+  <!-- Основной контент -->
+  <div class="wrapper">
+
+    <include src="assets/templates/popup.html"></include>
+
+    <main class="main">
+
+      <!-- Header -->
+      <include src="assets/templates/header.html"></include>
+
+      <!-- Popup -->
+      <include src="assets/templates/popup-catalog.html"></include>
+      <include src="assets/templates/mounting.html"></include>
+      <include src="assets/templates/popup-order.html"></include>
+
+
+      <section class="section section-ordering">
+        <h1>Оформление заказа</h1>
+
+        <!-- Форма -->
+        <form class="form">
+          <div class="form-group">
+            <div class="form-column">
+              <label>Название организации или ФИО</label>
+              <input required type="text">
+            </div>
+            <div class="form-column">
+              <label>E-mail (обязательно)</label>
+              <span class="eror">* поле обязательное для ввода</span>
+              <!-- за включение текста ошибки отвечает класс .active -->
+              <input required type="text">
+            </div>
+            <div class="form-column">
+              <label>Телефон (обязательно)</label>
+              <span class="eror">* поле обязательное для ввода</span>
+              <!-- за включение текста ошибки отвечает класс .active -->
+              <input required type="tel" class="only_number phone_mask" pattern="^[0-9-+s()]*$" name="tel">
+            </div>
+            <div class="form-column file">
+              <label>Прикрепленный файл</label>
+              <input type="file" data-jcf='{"buttonText": "Прикрепить", "placeholderText": ""}'>
+            </div>
+          </div>
+        </form>
+        <!-- Форма конец-->
+        <div class="form-bottom">
+          <span class="total"> ИТОГО: </span>
+          <span class="column"> 223 <span class="metrics"> ед. </span></span>
+          <span class="two-row">
+            <span> 30 105 <span> ₽</span></span>
+            <span class="description"> В т.ч. НДС <span> 6085 </span> ₽</span>
+          </span>
+          <div class="bottom-row">
+            <span class="column"><span class="hide">Масса </span> 12,5 <span class="metrics"> т </span></span>
+            <span class="column"><span class="hide">Объем </span> 3,7 <span class="metrics"> куб.м. </span></span>
+          </div>
+        </div>
+        <div class="action">
+          <a href="javascript:history.back();" class="btn"><img src="img/ArrowWhite.svg" alt="">Назад</a>
+          <a href="javascript:void(0);" class="btn file-add"><img src="img/Doc.svg" alt="">Добавить реквизиты</a>
+          <button class="btn"><img src="img/check.svg" alt="">Оформить заказ</button>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <include src="assets/templates/footer.html"></include>
+  </div>
+
+
+
+  <!-- Скрипты -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jcf.min.js"></script>
+  <script src="js/jcf.file.min.js"></script>
+  <script src="js/inputmask.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/ordering.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.5 133.5V132.5H33.5V133.5H20.5Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<mask id="path-2-inside-1" fill="white">
+<path d="M15 36.2793L70.2024 4L125 37"/>
+</mask>
+<path d="M70.2024 4L71.7501 1.43004L70.2249 0.511575L68.6881 1.41026L70.2024 4ZM16.5143 38.8691L71.7167 6.58974L68.6881 1.41026L13.4857 33.6896L16.5143 38.8691ZM68.6547 6.56996L123.452 39.57L126.548 34.43L71.7501 1.43004L68.6547 6.56996Z" fill="white" mask="url(#path-2-inside-1)"/>
+<path d="M23.5 119.5V110.5H116.5V119.5H23.5Z" fill="white" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M70.4048 17.7268L116.5 44.5398V110.5H23.5V43.9563L70.4048 17.7268Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M61.5 110.5V75.5H80.5V110.5H61.5Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<mask id="path-7-inside-2" fill="white">
+<path d="M76 94V91H73V94H76Z"/>
+</mask>
+<path d="M76 91H79V88H76V91ZM76 94V97H79V94H76ZM73 94H70V97H73V94ZM73 91V88H70V91H73ZM73 91V94H79V91H73ZM76 91H73V97H76V91ZM76 94V91H70V94H76ZM73 94H76V88H73V94Z" fill="white" mask="url(#path-7-inside-2)"/>
+<rect x="23.5" y="119.5" width="7" height="13" stroke="white" stroke-width="3"/>
+<path d="M106.5 133.5V132.5H119.5V133.5H106.5Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+<rect x="109.5" y="119.5" width="7" height="13" stroke="white" stroke-width="3"/>
+</svg>
