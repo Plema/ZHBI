@@ -19,25 +19,34 @@ $(document).ready(function () {
 
     $('.show-catalog').on('click', function () {
         $('.popup-catalog').toggleClass('active')
+        var catalog = $('.popup-catalog')
+        if ($(catalog).hasClass('active')) {
+            $('body').addClass('hiden')
+        } else {
+            $('body').removeClass('hiden')
+        }
         $('.popup-mounting').removeClass('active')
         $('.popup-order').removeClass('active')
-        $('body').removeClass('hiden')
         if ($(window).width() < 768) {
             $('.popup-catalog').css('top', '10px' + headerHeight);
-            $('body').toggleClass('hiden')
         } else {
             $('.popup-catalog').css('top', '0px');
         }
     })
 
+
     $('.show-mounting').on('click', function () {
         $('.popup-mounting').toggleClass('active')
+        var mounting = $('.popup-mounting')
+        if ($(mounting).hasClass('active')) {
+            $('body').addClass('hiden')
+        } else {
+            $('body').removeClass('hiden')
+        }
         $('.popup-catalog').removeClass('active')
         $('.popup-order').removeClass('active')
-        $('body').removeClass('hiden')
         if ($(window).width() < 768) {
             $('.popup-mounting').css('top', '10px' + headerHeight);
-            $('body').toggleClass('hiden')
         } else {
             $('.popup-mounting').css('top', '0px');
         }
@@ -45,12 +54,17 @@ $(document).ready(function () {
 
     $('.show-order').on('click', function () {
         $('.popup-order').toggleClass('active')
+        var order = $('.popup-order')
+
+        if ($(order).hasClass('active')) {
+            $('body').addClass('hiden')
+        } else {
+            $('body').removeClass('hiden')
+        }
         $('.popup-catalog').removeClass('active')
         $('.popup-mounting').removeClass('active')
-        $('body').removeClass('hiden')
         if ($(window).width() < 768) {
             $('.popup-order').css('top', '10px' + headerHeight);
-            $('body').toggleClass('hiden')
         } else {
             $('.popup-order').css('top', '0px');
         }
