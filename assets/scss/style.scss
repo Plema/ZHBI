@@ -137,6 +137,10 @@ a {
         padding: 0;
         padding-right: 80px;
     }
+
+    @media (min-width: 1440px) {
+        padding-right: 140px;
+    }
 }
 
 h1 {
