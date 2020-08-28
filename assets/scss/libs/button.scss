@@ -20,7 +20,7 @@
     z-index: 1;
     position: relative;
     font-style: normal;
-    padding: 0 25px;
+    padding: 12px 25px;
     background-color: $title_color;
     font-size: 24px;
     font-weight: 500;
@@ -40,14 +40,14 @@
 
     @media (min-width: 768px) {
         display: block;
-        max-width: 1148px;
+        // max-width: 1148px;
         padding: 10px 0 7px 10px;
         margin-left: 10px;
         background-color: $color_grey;
     }
 
     @media (min-width: 1680px) {
-        max-width: 90%;
+        max-width: none;
     }
 
     ul {

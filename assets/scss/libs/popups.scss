@@ -104,7 +104,7 @@
             height: 60px;
             background-color: #fbb03b;
             border: none;
-            padding: 0 10px 0 52px;
+            padding: 10px 10px 0 52px;
 
             @media(min-width: 768px) {
                 min-width: 150px;
@@ -595,6 +595,20 @@
             @media(min-width: 768px) {
                 width: 50%;
                 max-width: 400px;
+            }
+        }
+    }
+}
+
+.popup-mounting {
+    background-color: $color_grey;
+
+    .list {
+        background-color: $color_grey;
+
+        .list-item .title::after {
+            @media(min-width: 768px) {
+                display: none;
             }
         }
     }

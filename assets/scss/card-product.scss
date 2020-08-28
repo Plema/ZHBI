@@ -40,7 +40,7 @@ h1 {
         }
 
         @media (min-width: 1440px) {
-            padding-right: 9%;
+            // padding-right: 9%;
             max-width: none;
         }
 
@@ -199,7 +199,7 @@ h1 {
             margin: 0 5px;
             text-align: center;
             border: 0;
-            background-color: inherit;
+            background-color: $title_color;
             font-size: 36px;
             font-weight: 700;
             letter-spacing: 1.8px;
@@ -269,7 +269,7 @@ h1 {
         padding: 20px 30px;
 
         @media (min-width: 768px) {
-            max-width: 97%;
+            margin-right: 20px;
             margin-top: 20px;
             flex-direction: row;
             justify-content: space-between;
@@ -279,7 +279,7 @@ h1 {
         @media (min-width: 1024px) {
             margin-top: 16px;
             padding: 15px 50px 4px;
-            margin-right: 4px;
+            margin-right: 80px;
         }
 
         @media (min-width: 1360px) {
@@ -290,15 +290,14 @@ h1 {
         @media (min-width: 1440px) {
             margin-top: 16px;
             padding: 15px 95px 4px;
-            margin-right: 141px;
             margin-left: 0;
         }
 
-        @media (min-width: 1680px) {
-            margin: 0;
-            max-width: 97%;
-            margin-top: 16px;
-        }
+        // @media (min-width: 1680px) {
+        //     margin: 0;
+        //     max-width: 97%;
+        //     margin-top: 16px;
+        // }
 
         h4 {
             font-size: 20px;
@@ -375,7 +374,7 @@ h1 {
             font-size: 18px;
             font-weight: 500;
             letter-spacing: 0.3px;
-            padding: 0 11px;
+            padding: 12px 11px;
             justify-content: flex-start;
             border: none;
 
@@ -437,7 +436,8 @@ h1 {
             }
 
             @media (min-width: 1280px) {
-                width: 25%;
+                width: 24.7%;
+                max-width: none;
             }
 
             &.r-tabs-state-active {
@@ -504,17 +504,21 @@ h1 {
     }
 
     &-tabs {
+        @media (min-width: 768px) {
+            padding-right: 20px;
+        }
+
+        @media (min-width: 1024px) {
+            padding-right: 80px;
+        }
+
         @media (min-width: 1360px) {
             padding-left: 20px;
         }
 
         @media (min-width: 1440px) {
             padding-left: 0;
-            max-width: 90%;
         }
 
-        @media (min-width: 1680px) {
-            max-width: 97%;
-        }
     }
 }

@@ -23,9 +23,6 @@ h1 {
         padding-left: 10px;
     }
 
-    @media (min-width: 1440px) {
-        padding-right: 81px;
-    }
 
     .list {
         @media (min-width: 768px) {
@@ -36,6 +33,7 @@ h1 {
 
         @media (min-width: 1280px) {
             justify-content: flex-start;
+            margin-right: -3%;
         }
 
         @media (min-width: 1440px) {

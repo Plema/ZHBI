@@ -36,11 +36,11 @@ h1 {
         @media (min-width: 768px) {
             align-items: flex-start;
             flex-wrap: nowrap;
-            max-width: 98%;
+            // max-width: 98%;
         }
 
         @media (min-width: 1440px) {
-            padding-right: 9%;
+            // padding-right: 9%;
             max-width: none;
             margin-top: 30px;
         }
@@ -48,7 +48,7 @@ h1 {
         @media (min-width: 1680px) {
             margin: 30px 0 20px;
             padding-right: 0;
-            max-width: 98%;
+            // max-width: 98%;
         }
     }
 
@@ -110,17 +110,20 @@ h1 {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            max-width: 97%;
+            margin-right: 20px;
+        }
+
+        @media (min-width: 1024px) {
+            margin-right: 80px;
         }
 
         @media (min-width: 1440px) {
             padding: 43px 2% 7px;
-            margin-right: 141px;
             margin-top: 10px;
         }
 
         @media (min-width: 1680px) {
-            margin-right: 0;
+            margin-right: 80px;
         }
 
         .form-column {
@@ -259,16 +262,12 @@ h1 {
 
     .table {
         @media (min-width: 768px) {
-            max-width: 97%;
+            margin-right: 20px;
             margin-top: 28px;
         }
 
-        @media (min-width: 1440px) {
-            margin-right: 141px;
-        }
-
-        @media (min-width: 1680px) {
-            margin-right: 0;
+        @media (min-width: 1024px) {
+            margin-right: 80px;
         }
 
         .holder-item {
@@ -291,6 +290,10 @@ h1 {
                     @media (min-width: 1440px) {
                         padding: 15px 95px 4px;
                     }
+                }
+
+                .basket-yellow {
+                    background-color: $color_grey;
                 }
             }
         }
@@ -394,7 +397,7 @@ h1 {
                     background-repeat: no-repeat;
                     background-position: 50% 50%;
                     background-size: contain;
-                    background-color: inherit;
+                    background-color: $color_white;
                     margin-left: 20px;
                 }
             }
@@ -430,7 +433,7 @@ h1 {
 
         .btn-price {
             background-color: $color_yellow;
-            padding: 0 9px 0 14px;
+            padding: 10px 9px 10px 14px;
 
             img {
                 margin-right: 14px;
@@ -443,6 +446,7 @@ h1 {
 
         .more {
             margin-bottom: 39px;
+            height: 60px;
 
             @media (min-width: 768px) {
                 margin: 0 auto 61px;
@@ -455,6 +459,7 @@ h1 {
                 width: 17px;
                 height: 35px;
                 left: 22px;
+                top: 12px;
                 background-repeat: no-repeat;
             }
 
@@ -466,6 +471,7 @@ h1 {
                 height: 35px;
                 right: 21px;
                 background-repeat: no-repeat;
+                top: 12px;
             }
         }
     }
@@ -501,7 +507,7 @@ h1 {
             background-color: $color_grey;
             display: flex;
             align-items: center;
-            padding: 10px 17px;
+            padding: 20px 17px;
 
             @media (min-width: 1440px) {}
 
@@ -552,7 +558,7 @@ h1 {
             margin: 0 5px;
             text-align: center;
             border: 0;
-            background-color: inherit;
+            background-color: $title_color;
             font-size: 36px;
             font-weight: 700;
             letter-spacing: 1.8px;
@@ -734,7 +740,7 @@ h1 {
             font-size: 18px;
             font-weight: 500;
             letter-spacing: 0.3px;
-            padding: 0 11px;
+            padding: 12px 11px;
             justify-content: flex-start;
             border: none;
 
@@ -796,7 +802,8 @@ h1 {
             }
 
             @media (min-width: 1280px) {
-                width: 25%;
+                width: 24.7%;
+                max-width: none;
             }
 
             &.r-tabs-state-active {
@@ -863,17 +870,21 @@ h1 {
     }
 
     &-tabs {
+        @media (min-width: 768px) {
+            padding-right: 20px;
+        }
+
+        @media (min-width: 1024px) {
+            padding-right: 80px;
+        }
+
         @media (min-width: 1360px) {
             padding-left: 20px;
         }
 
         @media (min-width: 1440px) {
             padding-left: 0;
-            max-width: 90%;
-        }
-
-        @media (min-width: 1680px) {
-            max-width: 97%;
+            padding-right: 80px;
         }
     }
 }
