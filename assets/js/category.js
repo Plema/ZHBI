@@ -29,4 +29,10 @@ $(document).ready(function () {
         $input.change();
         return false;
     });
+
+
+    $('.holder-item').on('click', function(){
+        $(this).toggleClass('active');
+    });
+
 })

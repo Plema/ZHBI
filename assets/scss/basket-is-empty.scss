@@ -32,11 +32,15 @@
     font-size: 28px;
     font-weight: 700;
     line-height: 40px;
-    text-align: center;
+    text-align: left;
+    padding-right: 60px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #4d4d4d;
-
+    @media (min-width:768px) {
+        text-align: center;
+        padding-right: 0px;
+    }
     span {
         display: block;
         font-size: 23px;

@@ -109,8 +109,10 @@ h1 {
             background-color: #fbb03b;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            margin-right: 20px;
+            max-width: 97%;
+            justify-content: left;
+            margin: 50px -1% 30px;
+            align-items: flex-end;
         }
 
         @media (min-width: 1024px) {
@@ -136,13 +138,13 @@ h1 {
             }
 
             @media (min-width: 768px) {
-                width: 31%;
-                margin: 0 5px 30px;
                 display: block;
+                width: 31.33%;
+                margin: 0 1% 30px;
             }
 
             @media (min-width: 1280px) {
-                width: 15%;
+                width: 18%;
             }
         }
 
@@ -242,6 +244,41 @@ h1 {
                 }
             }
 
+            input{
+                width: 100%;
+                border: none;
+                height: 40px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 17px;
+                background-color: $color_white;
+            }
+
+            .price{
+                position: relative;
+                padding-right: 40px;
+                span{
+                    top: 50%;
+                    right: 0;
+                    position: absolute;
+                    transform: translate(0, -50%);
+                }
+            }
+
+            .btn{
+                width: 200px;
+                margin: 0 auto;
+                display: block;
+                font-size: 14px;
+                min-height: 40px;
+                min-width: 200px;
+                padding: 10px 10px;
+                @media (min-width: 768px) {
+                    width: 100%;
+                    min-width: 100%;
+                }
+            }
+
         }
 
         .form-action {
@@ -282,23 +319,28 @@ h1 {
             &:hover {
                 background-color: $color_grey;
 
-
-                .information {
-                    padding: 20px 30px;
-                    height: 100%;
-                    opacity: 1;
-
-                    @media (min-width: 1024px) {
-                        padding: 15px 50px 4px;
-                    }
-
-                    @media (min-width: 1440px) {
-                        padding: 15px 95px 4px;
-                    }
-                }
-
                 .basket-yellow {
                     background-color: $color_grey;
+                }
+            }
+        }
+
+        .holder-item.active{
+            background-color: $color_grey;
+            .basket-yellow {
+                background-color: $color_grey;
+            }
+            .information {
+                padding: 20px 30px;
+                height: 100%;
+                opacity: 1;
+
+                @media (min-width: 1024px) {
+                    padding: 15px 50px 4px;
+                }
+
+                @media (min-width: 1440px) {
+                    padding: 15px 95px 4px;
                 }
             }
         }
