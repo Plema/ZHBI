@@ -280,23 +280,28 @@ body {
             &:hover {
                 background-color: $color_white;
 
-
-                .information {
-                    padding: 20px 30px;
-                    height: 100%;
-                    opacity: 1;
-
-                    @media (min-width: 1024px) {
-                        padding: 15px 50px 4px;
-                    }
-
-                    @media (min-width: 1440px) {
-                        padding: 15px 95px 4px;
-                    }
-                }
-
                 .basket-yellow {
                     background-color: $color_white;
+                }
+            }
+        }
+
+        .holder-item.active{
+            background-color: $color_grey;
+            .basket-yellow {
+                background-color: $color_grey;
+            }
+            .information {
+                padding: 20px 30px;
+                height: 100%;
+                opacity: 1;
+
+                @media (min-width: 1024px) {
+                    padding: 15px 50px 4px;
+                }
+
+                @media (min-width: 1440px) {
+                    padding: 15px 95px 4px;
                 }
             }
         }
