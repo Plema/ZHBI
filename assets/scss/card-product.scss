@@ -314,8 +314,16 @@ h1 {
 
         ul {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             padding: 28px 0 20px;
+            li{
+                width: 100%;
+                margin-bottom: 10px;
+                &:last-child{
+                    width: 100%;
+                }
+            }
 
             @media (min-width: 375px) {
                 padding: 28px 26px 20px;
@@ -324,6 +332,18 @@ h1 {
             @media (min-width: 768px) {
                 padding: 28px 0 20px;
                 justify-content: space-around;
+            }
+
+            @media (min-width: 1024px) {
+                li{
+                    width: auto;
+                    margin-bottom: 10px;
+                    &:last-child{
+                        width: auto;
+                        text-align: left;
+                        margin-left: 20px;
+                    }
+                }
             }
 
             @media (min-width: 1440px) {
@@ -336,6 +356,14 @@ h1 {
 
             @media (min-width: 1440px) {
                 display: block;
+                text-align: left;
+                margin-left: 40px;
+                span{
+                    &:last-child{
+                        margin-top: 6px;
+                        display: inline-block;
+                    }
+                }
             }
         }
 
@@ -353,7 +381,7 @@ h1 {
                 }
 
                 &:last-child {
-                    font-size: 36px;
+                    font-size: 30px;
                     font-weight: 700;
                     letter-spacing: 1.8px;
                     text-transform: uppercase;
